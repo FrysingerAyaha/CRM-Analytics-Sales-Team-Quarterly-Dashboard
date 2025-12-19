@@ -103,8 +103,9 @@ The analysis revealed **significant performance variance at both the individual 
 * Teams under high-performing managers showed greater consistency in quarterly output.
   
 * Manager-level variance directly influenced overall revenue outcomes.
-
+[Summer Sewals]
 <img width="761" height="540" alt="Summer Sewald" src="https://github.com/user-attachments/assets/8b4360e4-a32d-44ec-a973-658ee4f36970" />
+[Cara Losch]
 <img width="755" height="531" alt="Cara Losch" src="https://github.com/user-attachments/assets/c851b0bf-3b53-46e7-b897-b89e4af1a3e5" />
 
 ---
