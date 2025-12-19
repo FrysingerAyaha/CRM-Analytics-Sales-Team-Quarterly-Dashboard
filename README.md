@@ -19,7 +19,7 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 
 Targeted SQL queries addressing specific business questions can be found here: [link]
 
-An interactive Tableau dashboard used to explore quarterly sales trends can be found here: [link]
+An interactive dashboard used to explore quarterly sales trends can be found here: [link](https://docs.google.com/spreadsheets/d/1MXS3myei8jcwDWGrGIxTzHA2rDkymO5gXy9UlNBX0_o/edit?usp=sharing)
 
 ---
 
@@ -43,7 +43,7 @@ Initial data checks focused on:
 
 These checks ensured the analysis was based on clean, reliable CRM data suitable for executive reporting.
 
-[Entity Relationship Diagram here]
+[Entity Relationship Diagram included in repository]
 
 ---
 
