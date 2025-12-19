@@ -2,122 +2,165 @@
 A full-stack dashboard application that aggregates data from our CRM (e.g., Salesforce) to provide Sales Managers with real-time, interactive visualizations of their team's quarterly performance. It eliminates manual reporting and enables data-driven decision-making.
 Welcome to the sample GitHub ReadME! Use this template as an outline for your data analytics projects. Include one ReadME per repository, with each repository storing one project. Remember, it's better to have quality over quantity - having 2 stellar business-relevant projects stands out much more than 3+ mediocre projects. Feel free to make a copy of this or fork this repository and make it your own. Happy portfolio-ing :) 
 
-# Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+# Quarterly Sales Performance Dashboard (CRM Analytics)
+
+## Project Background
+
+This project is based on a mid-sized B2B technology company specializing in **computer hardware solutions for large enterprise clients**. The company operates on a direct sales model, where sales agents manage long-cycle opportunities supported by regional sales managers.
+
+In 2017, the company implemented a new **CRM system** to track sales opportunities, deal stages, and outcomes. While the CRM successfully captured transactional data, leadership lacked visibility into historical performance because 2017 sales data existed only within the platform and had not been consolidated into an analytical or reporting format.
+
+From the perspective of a data analyst working within the organization, this created challenges for sales leadership, including limited visibility into quarterly trends, difficulty evaluating individual and manager performance, and reduced ability to make data-driven decisions around coaching, forecasting, and resource allocation.
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Quarterly Sales Performance & Conversion Trends**
+- **Individual Sales Agent Effectiveness**
+- **Manager-Level Performance Impact**
+- **Revenue Concentration & Growth Constraints**
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found here: [link]
 
-Targed SQL queries regarding various business questions can be found here [link].
+Targeted SQL queries addressing specific business questions can be found here: [link]
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Tableau dashboard used to explore quarterly sales trends can be found here: [link]
 
+---
 
+## Data Structure & Initial Checks
 
-# Data Structure & Initial Checks
+The CRM database used for this analysis consists of **four core tables**, containing opportunity-level data for all sales activity in 2017. The total dataset includes several thousand opportunity records.
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+The tables are structured as follows:
+
+- **Opportunities Table:** Opportunity ID, deal status (Won/Lost/Open), close date, revenue indicators  
+- **Sales Agents Table:** Sales agent identifiers and attribution  
+- **Managers Table:** Manager-to-agent mapping  
+- **Calendar Table:** Date fields used for quarterly aggregation  
+
+Initial data checks focused on:
+
+- Validating opportunity status consistency  
+- Ensuring correct manager and sales agent attribution  
+- Verifying quarterly date assignments  
+- Removing duplicates and incomplete records  
+
+These checks ensured the analysis was based on clean, reliable CRM data suitable for executive reporting.
 
 [Entity Relationship Diagram here]
 
+---
 
-
-# Executive Summary
+## Executive Summary
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+Sales performance in 2017 was driven primarily by **opportunity volume rather than conversion efficiency**. While total wins fluctuated quarter-over-quarter, win rates remained consistently strong at approximately **60%**, indicating stable sales execution.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+The analysis revealed **significant performance variance at both the individual and manager levels**, highlighting clear opportunities for targeted coaching, process standardization, and scalable revenue growth.
 
+[Dashboard snapshot or high-level visualization]
 
+---
 
-# Insights Deep Dive
-### Category 1:
+## Insights Deep Dive
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+### Category 1: Quarterly Sales Performance
+
+* **Q4 2017 closed with 1,196 won opportunities**, a decline of 61 deals (-4.9%) compared to Q3 (1,257 wins).
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Win rate remained stable at 60.3%**, despite the reduction in total wins.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Q1 recorded 531 wins, while Q2 and Q3 each exceeded 1,250 wins.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Performance data shows clear **seasonality**, with Q1 consistently underperforming relative to later quarters.
 
-[Visualization specific to category 1]
+[Visualization specific to quarterly trends]
 
+---
 
-### Category 2:
+### Category 2: Individual Sales Agent Performance
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Darcel Schlecht emerged as the top-performing sales agent in Q4**, closing the highest number of opportunities.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Garnet Kinder recorded the lowest performance with 16 closed deals**, accounting for approximately 1.3% of total Q4 wins.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* The performance gap between top and bottom agents exceeded a **6× difference**.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Over 40% of agents fell into a mid-tier performance range (30–55 wins per quarter).
 
-[Visualization specific to category 2]
+[Visualization specific to individual agent performance]
 
+---
 
-### Category 3:
+### Category 3: Manager-Level Performance
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Summer Sewald’s team generated the highest total number of closed-won opportunities** among all managers.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Cara Losch’s team recorded the lowest overall sales wins**.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Teams under high-performing managers showed greater consistency in quarterly output.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Manager-level variance directly influenced overall revenue outcomes.
 
-[Visualization specific to category 3]
+[Visualization specific to manager-level performance]
 
+---
 
-### Category 4:
+### Category 4: Revenue Concentration & Growth Constraints
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* The **top 5 sales agents generated over 20% of total Q4 wins**.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* The **bottom 25% of agents contributed less than 10%** of total closed deals.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* With a 60.3% win rate, a **10% increase in qualified opportunities** would have resulted in approximately **120 additional closed deals** in Q4.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Growth constraints are primarily driven by **opportunity volume**, not conversion effectiveness.
 
-[Visualization specific to category 4]
+[Visualization specific to revenue concentration and funnel analysis]
 
+---
 
+## Recommendations
 
-# Recommendations:
+Based on the insights above, we recommend the **Sales Leadership and Revenue Operations teams** consider the following actions:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+* Performance data shows Summer Sewald’s team consistently outperformed others.  
+  **Standardize and scale best practices from Summer Sewald’s team to reduce variability and improve overall sales consistency.**
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Garnet Kinder closed only 16 deals in Q4, significantly below the team average.  
+  **Implement targeted coaching, territory review, and lead-quality assessment to improve underperforming agent output.**
+
+* Cara Losch’s team recorded the lowest total wins among managers.  
+  **Conduct a manager-level enablement review to improve coaching cadence, pipeline management, and resource allocation.**
+
+* Stable win rates indicate strong sales execution.  
+  **Increase qualified opportunity generation to drive immediate revenue growth without changing existing sales processes.**
+
+* Revenue is concentrated among a small group of top performers.  
+  **Reduce dependency risk by improving mid-tier agent performance through scalable training and standardized workflows.**
+
+---
+
+## Assumptions and Caveats
+
+Throughout the analysis, the following assumptions and limitations were considered:
+
+* Opportunities missing manager attribution were excluded from manager-level analysis.
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Open opportunities without a close date were not included in quarterly win calculations.
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Seasonal trends were based solely on 2017 data and may not reflect future market conditions.
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+* Revenue impact was inferred from win counts due to the absence of deal value fields.
 
+---
 
-# Assumptions and Caveats:
+## Portfolio Strength Statement
 
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+This project demonstrates my ability to:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+- Translate CRM data into **quantified, actionable business insights**
+- Analyze performance at the **agent, manager, and organizational level**
+- Build dashboards designed for **non-technical stakeholders**
+- Support **data-driven decision-making** in sales and marketing contexts
