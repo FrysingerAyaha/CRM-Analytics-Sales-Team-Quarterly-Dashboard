@@ -71,7 +71,7 @@ The analysis revealed **significant performance variance at both the individual 
   
 * Performance data shows clear **seasonality**, with Q1 consistently underperforming relative to later quarters.
 
-[Visualization specific to quarterly trends]
+[Category 1.pdf](https://github.com/user-attachments/files/24253469/Category.1.pdf)
 
 ---
 
@@ -85,7 +85,8 @@ The analysis revealed **significant performance variance at both the individual 
   
 * Over 40% of agents fell into a mid-tier performance range (30–55 wins per quarter).
 
-[Visualization specific to individual agent performance]
+[Visualization specific to individual agent performance]<img width="1040" height="781" alt="Category 2" src="https://github.com/user-attachments/assets/7b7bf873-e687-4dfb-800c-120d9d2b8538" />
+
 
 ---
 
