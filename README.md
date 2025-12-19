@@ -55,7 +55,8 @@ Sales performance in 2017 was driven primarily by **opportunity volume rather th
 
 The analysis revealed **significant performance variance at both the individual and manager levels**, highlighting clear opportunities for targeted coaching, process standardization, and scalable revenue growth.
 
-[Dashboard snapshot or high-level visualization]
+<img width="792" height="584" alt="Screenshot 2025-12-18 123401" src="https://github.com/user-attachments/assets/a91d0109-5d49-4a58-9243-4eb4fb3e2217" />
+
 
 ---
 
@@ -71,7 +72,9 @@ The analysis revealed **significant performance variance at both the individual 
   
 * Performance data shows clear **seasonality**, with Q1 consistently underperforming relative to later quarters.
 
-[Category 1.pdf](https://github.com/user-attachments/files/24253469/Category.1.pdf)
+<img width="811" height="86" alt="Category 1 a" src="https://github.com/user-attachments/assets/2460fee8-034e-440f-ae29-0168ae13688d" />
+<img width="661" height="391" alt="Category 1 b" src="https://github.com/user-attachments/assets/da195e36-1198-4c0e-b7ad-cc9f8a8c8cb3" />
+
 
 ---
 
@@ -85,7 +88,8 @@ The analysis revealed **significant performance variance at both the individual 
   
 * Over 40% of agents fell into a mid-tier performance range (30–55 wins per quarter).
 
-[Visualization specific to individual agent performance]<img width="1040" height="781" alt="Category 2" src="https://github.com/user-attachments/assets/7b7bf873-e687-4dfb-800c-120d9d2b8538" />
+<img width="673" height="597" alt="Category 2" src="https://github.com/user-attachments/assets/080881a2-4cb2-4ae6-a843-0ec43871e906" />
+
 
 
 ---
@@ -100,7 +104,8 @@ The analysis revealed **significant performance variance at both the individual 
   
 * Manager-level variance directly influenced overall revenue outcomes.
 
-[Visualization specific to manager-level performance]
+<img width="761" height="540" alt="Summer Sewald" src="https://github.com/user-attachments/assets/8b4360e4-a32d-44ec-a973-658ee4f36970" />
+<img width="755" height="531" alt="Cara Losch" src="https://github.com/user-attachments/assets/c851b0bf-3b53-46e7-b897-b89e4af1a3e5" />
 
 ---
 
@@ -113,8 +118,7 @@ The analysis revealed **significant performance variance at both the individual 
 * With a 60.3% win rate, a **10% increase in qualified opportunities** would have resulted in approximately **120 additional closed deals** in Q4.
   
 * Growth constraints are primarily driven by **opportunity volume**, not conversion effectiveness.
-
-[Visualization specific to revenue concentration and funnel analysis]
+<img width="792" height="584" alt="Screenshot 2025-12-18 123401" src="https://github.com/user-attachments/assets/0cd5f10f-6218-4153-9c6e-696c9dee3e83" />
 
 ---
 
