@@ -96,13 +96,14 @@ The analysis revealed **significant performance variance at both the individual 
 
 ### Category 3: Manager-Level Performance
 
-* **Summer Sewald’s team generated the highest total number of closed-won opportunities** among all managers.
-  
-* **Cara Losch’s team recorded the lowest overall sales wins**.
-  
-* Teams under high-performing managers showed greater consistency in quarterly output.
-  
-* Manager-level variance directly influenced overall revenue outcomes. <br>
+* **Summer Sewald’s team generated the highest total number of closed-won opportunities**, totaling **828 wins**. Q4 performance reached **249 wins** at a **64.7% win rate**, up **27 wins compared to the previous quarter**.  
+
+* **Cara Losch’s team recorded the lowest overall sales wins**, with **480 total wins**. Q4 closed with **137 wins** at a **58.8% win rate**, down **10 wins from the prior quarter**.  
+
+* Teams under high-performing managers showed greater consistency in quarterly output.  
+
+* Manager-level variance directly influenced overall revenue outcomes.  
+
 [Summer Sewals]
 <img width="761" height="540" alt="Summer Sewald" src="https://github.com/user-attachments/assets/8b4360e4-a32d-44ec-a973-658ee4f36970" /><br>
 [Cara Losch]<br>
